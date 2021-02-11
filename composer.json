@@ -1,0 +1,16 @@
+{
+    "name": "Sadee/DogCeo",
+    "type": "library",
+    "description": "PHP wrapper for the https://dog.ceo/ API",
+    "keywords": ["Dog","DogCeo"],
+    "homepage": "https://github.com/Sadee/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samurdhi Munasinghe",
+            "email": "skaushalye@gmail.com",
+            "homepage": "https://github.com/Sadee/",
+            "role": "PHP Developer"
+        }
+    ],
+}
