@@ -4,21 +4,55 @@ namespace DogCeo;
 
 use Exception;
 
+/**
+ * Class DogCeo
+ * @package DogCeo
+ */
 class DogCeo implements DogCeoInterFace
 {
+
+    /**
+     * @var string
+     */
     private $endpoint = "https://dog.ceo/api/";
+
+    /**
+     * Function name to call correct API function
+     * @var string
+     */
     private $funcUrl = "";
+
+    /**
+     * Curl request method
+     * @var string
+     */
     private $requestMethod = "GET";
+
+    /**
+     * @var array
+     */
     private $postParams = [];
-    private $appKey = "";
-    private $loginUsername = "";
-    private $loginPassword = "";
-    private $sessionKey = "";
-    private $loginKey = "";
+
+    /**
+     * Cookie file to handle curl cookies
+     * @var string
+     */
     private $cookieFilePath = "/tmp/dog_cookie.txt";
+
+    /**
+     * This will be filled with successful response
+     * @var string
+     */
     public $result = "";
+
+    /**
+     * @var bool
+     */
     public $error = false;
 
+    /**
+     * @var string
+     */
     private $agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0';
 
     /**
