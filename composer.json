@@ -1,0 +1,20 @@
+{
+    "name": "sadee/dog-ceo",
+    "description": "PHP wrapper for dog.ceo API",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "S.Kaushalye",
+            "email": "skm@nada.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "DogCeo": "src/"
+        }
+    }
+}
