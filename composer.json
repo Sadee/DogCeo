@@ -2,6 +2,7 @@
     "name": "sadee/dog-ceo",
     "description": "PHP wrapper for dog.ceo API",
     "type": "composer-plugin",
+    "license": "MIT",
     "authors": [
         {
             "name": "S.Kaushalye",
